@@ -24,4 +24,17 @@ First, I open a browser, and type the url of the Youtube. The browser makes as H
 
 ## REpresentational state Transfer(REST) APIs 
 
-REST API is one of the popular web-based API architecture. The APIs following the REST API architectures are  called RESTful APIs. So, what are some of the criterias for a remote APIs to be referred as RESTful APIs?
+REST API is one of the popular web-based API architecture. The APIs following the REST API architectures are  called RESTful APIs. 
+
+Criterias for a Remote API to be referred as RESTful API:
+
+1. **Client-Server Architecture**:  RESTful API must involve "client" and "server". *Clients* make request, while the *Servers* response accordingly. 
+
+2. **Statelessness**: RESTful API should not maintain state between requests.  This means the requests made by the client should not be stored in server. For example, using stateless protocol like *HTTP* for requesting the data from the server. 
+
+3. **Cachebility**: Responses from a RESTful API should be cacheable; This allos clients to load frequently used data locally.
+
+4. **Layered System**: RESTful API should be designed to operate in a layered system. Clients should only be exposed to the endpoints(resources) exposed by the server. Client do not need to know underlying infrastructure within the server. This makes it  easy to update and changed the API without effecting the clients. 
+
+5. **Uniform Interface**: A RESTful API should have uniform interface, meaning that it should have consistent and well-defined resource representations, request/response structure amd standard error handling. This makes it easy for clients to understand and use of APIs. For example: Standard HTTP status codes such as *200(ok),404(Not Found).*  Another example is use of standard data formats such as *JSON or XML*, to represent resource and exchange data between client and server. 
+
