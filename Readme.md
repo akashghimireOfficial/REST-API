@@ -52,3 +52,5 @@ Criterias for a Remote API to be referred as RESTful API:
 
 > So, what's the next step? <br>
 This Github repository introduces us to RESTful APIs. As a next step, we will be conducting a practical session on REST APIs using the Postman API. Postman is one of the popular APIs for implementing RESTful APIs."
+
+After that, we will learn how to develop a RESTful API for basic **ML Applications** using *Flask* in Python Language.
