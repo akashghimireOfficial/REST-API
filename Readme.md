@@ -1,6 +1,6 @@
 # **Introduction to REST APIs**
 
-In *REST API*, REST stands for *REpresentational State Transfer*, and *API* stands for *Application Programming Interface.*
+>In *REST API*, REST stands for *REpresentational State Transfer*, and *API* stands for *Application Programming Interface.*
 
 ## Application Programming Interface
 
@@ -24,7 +24,7 @@ First, I open a browser, and type the url of the Youtube. The browser makes as H
 
 ## REpresentational state Transfer(REST) APIs 
 
-REST API is one of the popular web-based API architecture. The APIs following the REST API architectures are  called RESTful APIs. 
+> REST API is one of the popular web-based API architecture. The APIs following the REST API architectures are  called RESTful APIs. 
 
 Criterias for a Remote API to be referred as RESTful API:
 
@@ -38,3 +38,11 @@ Criterias for a Remote API to be referred as RESTful API:
 
 5. **Uniform Interface**: A RESTful API should have uniform interface, meaning that it should have consistent and well-defined resource representations, request/response structure amd standard error handling. This makes it easy for clients to understand and use of APIs. For example: Standard HTTP status codes such as *200(ok),404(Not Found).*  Another example is use of standard data formats such as *JSON or XML*, to represent resource and exchange data between client and server. 
 
+ 
+ Since, RESTful APIs use HTTP protocol to communicate between client and server. REST APIs uses the following HTTP methodsto perform different tasks on resources: 
+
+ 1. **GET** : *Read* or retrives a resouces.
+ 2. **POST** : *Write* or Creates a resouces.
+ 3. **PUT** : *Updates* a resouces.
+ 4. **PATCH** : Updates a portion of an existing resource.
+ 5. **DELETE**: deletes a resources. 
