@@ -55,4 +55,3 @@ This Github repository introduces us to RESTful APIs. As a next step, we will be
 
 After that, we will learn how to develop a RESTful API for basic **ML Applications** using *Flask* in Python Language.
 
-Hello
